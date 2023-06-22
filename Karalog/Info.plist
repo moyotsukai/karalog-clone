@@ -46,5 +46,15 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+	</array>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>app.Ito.tiger.Karalog.processing</string>
+		<string>app.Ito.tiger.Karalog.refresh</string>
+	</array>
 </dict>
 </plist>

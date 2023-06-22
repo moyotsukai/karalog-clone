@@ -6,10 +6,8 @@
 //
 
 import UIKit
-
 import Alamofire
 import Dispatch
-
 import Vision
 import VisionKit
 

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0513E246E9A899BD4EAC29C2 /* Pods_Karalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB4C410CD43EC7ED72095BD /* Pods_Karalog.framework */; };
 		192D26712A0543A80058D739 /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192D26702A0543A80058D739 /* Function.swift */; };
 		192D26AF2A1F1AB20058D739 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192D26AE2A1F1AB20058D739 /* ShareViewController.swift */; };
 		192D26B22A1F1C140058D739 /* ShareCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192D26B02A1F1C140058D739 /* ShareCell.swift */; };
@@ -64,8 +63,8 @@
 		19A12D8929CF487E00B798A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19A12D8829CF487E00B798A4 /* GoogleService-Info.plist */; };
 		19A12D8C29CF4A5600B798A4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 19A12D8B29CF4A5600B798A4 /* FirebaseAuth */; };
 		19A12D8E29CF4A5600B798A4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 19A12D8D29CF4A5600B798A4 /* FirebaseFirestore */; };
-		60476196096EB912B2FDFF70 /* Pods_KaralogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9444EA6D5DF5A4528A21B133 /* Pods_KaralogTests.framework */; };
-		C816F45B2B5571E4BD1891D3 /* Pods_Karalog_KaralogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DDE236F0B387BF8920612C /* Pods_Karalog_KaralogUITests.framework */; };
+		EBDBDE4B2A43E36400814FDC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EBDBDE4A2A43E36400814FDC /* Alamofire */; };
+		EBDBDE4E2A43E3D800814FDC /* DZNEmptyDataSet in Frameworks */ = {isa = PBXBuildFile; productRef = EBDBDE4D2A43E3D800814FDC /* DZNEmptyDataSet */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,10 +85,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CB4C410CD43EC7ED72095BD /* Pods_Karalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Karalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19019BF729E189CD00315AFD /* Karalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		19019BF829E189CD00315AFD /* KaralogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaralogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		19019BF929E189CD00315AFD /* KaralogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaralogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19019BF829E189CD00315AFD /* KaralogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = KaralogTests.xctest; path = "/Users/owner/ios_projects/Karalog/build/Debug-iphoneos/KaralogTests.xctest"; sourceTree = "<absolute>"; };
+		19019BF929E189CD00315AFD /* KaralogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = KaralogUITests.xctest; path = "/Users/owner/ios_projects/Karalog/build/Debug-iphoneos/KaralogUITests.xctest"; sourceTree = "<absolute>"; };
 		192D26702A0543A80058D739 /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		192D26AE2A1F1AB20058D739 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		192D26B02A1F1C140058D739 /* ShareCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareCell.swift; sourceTree = "<group>"; };
@@ -140,14 +137,7 @@
 		19A12D8429CDE70700B798A4 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
 		19A12D8629CF465900B798A4 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		19A12D8829CF487E00B798A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		35DDE236F0B387BF8920612C /* Pods_Karalog_KaralogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Karalog_KaralogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6468C3A3597ED225A0446E38 /* Pods-Karalog-KaralogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karalog-KaralogUITests.release.xcconfig"; path = "Target Support Files/Pods-Karalog-KaralogUITests/Pods-Karalog-KaralogUITests.release.xcconfig"; sourceTree = "<group>"; };
-		6D12E4A062AA62995FF3D031 /* Pods-Karalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karalog.release.xcconfig"; path = "Target Support Files/Pods-Karalog/Pods-Karalog.release.xcconfig"; sourceTree = "<group>"; };
-		71F78DB740A4C53BC199E6EF /* Pods-Karalog-KaralogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karalog-KaralogUITests.debug.xcconfig"; path = "Target Support Files/Pods-Karalog-KaralogUITests/Pods-Karalog-KaralogUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7E0371CBD3B5DE3B9D47BAF9 /* Pods-KaralogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaralogTests.release.xcconfig"; path = "Target Support Files/Pods-KaralogTests/Pods-KaralogTests.release.xcconfig"; sourceTree = "<group>"; };
-		9444EA6D5DF5A4528A21B133 /* Pods_KaralogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaralogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E101F8ECE477F51A4867B549 /* Pods-KaralogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaralogTests.debug.xcconfig"; path = "Target Support Files/Pods-KaralogTests/Pods-KaralogTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E590B4190CFA172B8D53B312 /* Pods-Karalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Karalog.debug.xcconfig"; path = "Target Support Files/Pods-Karalog/Pods-Karalog.debug.xcconfig"; sourceTree = "<group>"; };
+		EBDBDE4F2A43E94B00814FDC /* Karalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,10 +150,11 @@
 				1938FBD029D08C1900245BB3 /* FacebookShare in Frameworks */,
 				19A12D8C29CF4A5600B798A4 /* FirebaseAuth in Frameworks */,
 				1938FBCC29D08C1900245BB3 /* FacebookCore in Frameworks */,
+				EBDBDE4E2A43E3D800814FDC /* DZNEmptyDataSet in Frameworks */,
+				EBDBDE4B2A43E36400814FDC /* Alamofire in Frameworks */,
 				19A12D8E29CF4A5600B798A4 /* FirebaseFirestore in Frameworks */,
 				1938FBC929D0741300245BB3 /* GoogleSignInSwift in Frameworks */,
 				1938FBC429D0696400245BB3 /* FirebaseFirestoreSwift in Frameworks */,
-				0513E246E9A899BD4EAC29C2 /* Pods_Karalog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +162,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60476196096EB912B2FDFF70 /* Pods_KaralogTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +169,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C816F45B2B5571E4BD1891D3 /* Pods_Karalog_KaralogUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,11 +242,7 @@
 				19A12D2B29CC2C9E00B798A4 /* Karalog */,
 				19A12D4229CC2CA000B798A4 /* KaralogTests */,
 				19A12D4C29CC2CA000B798A4 /* KaralogUITests */,
-				F2BBB3838BA6CDDE220C1AF8 /* Pods */,
-				4F8BBBA3376CBB0741A1F3F3 /* Frameworks */,
-				19019BF729E189CD00315AFD /* Karalog.app */,
-				19019BF829E189CD00315AFD /* KaralogTests.xctest */,
-				19019BF929E189CD00315AFD /* KaralogUITests.xctest */,
+				EBDBDE4F2A43E94B00814FDC /* Karalog.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -295,29 +280,6 @@
 			path = KaralogUITests;
 			sourceTree = "<group>";
 		};
-		4F8BBBA3376CBB0741A1F3F3 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0CB4C410CD43EC7ED72095BD /* Pods_Karalog.framework */,
-				35DDE236F0B387BF8920612C /* Pods_Karalog_KaralogUITests.framework */,
-				9444EA6D5DF5A4528A21B133 /* Pods_KaralogTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F2BBB3838BA6CDDE220C1AF8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E590B4190CFA172B8D53B312 /* Pods-Karalog.debug.xcconfig */,
-				6D12E4A062AA62995FF3D031 /* Pods-Karalog.release.xcconfig */,
-				71F78DB740A4C53BC199E6EF /* Pods-Karalog-KaralogUITests.debug.xcconfig */,
-				6468C3A3597ED225A0446E38 /* Pods-Karalog-KaralogUITests.release.xcconfig */,
-				E101F8ECE477F51A4867B549 /* Pods-KaralogTests.debug.xcconfig */,
-				7E0371CBD3B5DE3B9D47BAF9 /* Pods-KaralogTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -325,11 +287,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19A12D5329CC2CA000B798A4 /* Build configuration list for PBXNativeTarget "Karalog" */;
 			buildPhases = (
-				D63FEE7E3725EEC2AE3C7C7F /* [CP] Check Pods Manifest.lock */,
 				19A12D2529CC2C9E00B798A4 /* Sources */,
 				19A12D2629CC2C9E00B798A4 /* Frameworks */,
 				19A12D2729CC2C9E00B798A4 /* Resources */,
-				CA995D447BA67BFB762CA7EC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -345,9 +305,11 @@
 				1938FBCB29D08C1900245BB3 /* FacebookCore */,
 				1938FBCD29D08C1900245BB3 /* FacebookLogin */,
 				1938FBCF29D08C1900245BB3 /* FacebookShare */,
+				EBDBDE4A2A43E36400814FDC /* Alamofire */,
+				EBDBDE4D2A43E3D800814FDC /* DZNEmptyDataSet */,
 			);
 			productName = Karalog;
-			productReference = 19019BF729E189CD00315AFD /* Karalog.app */;
+			productReference = EBDBDE4F2A43E94B00814FDC /* Karalog.app */;
 			productType = "com.apple.product-type.application";
 		};
 		19A12D3E29CC2CA000B798A4 /* KaralogTests */ = {
@@ -425,6 +387,8 @@
 				19A12D8A29CF4A5600B798A4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				1938FBC529D0741300245BB3 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				1938FBCA29D08C1900245BB3 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				EBDBDE492A43E36400814FDC /* XCRemoteSwiftPackageReference "Alamofire" */,
+				EBDBDE4C2A43E3D800814FDC /* XCRemoteSwiftPackageReference "DZNEmptyDataSet" */,
 			);
 			productRefGroup = 19A12D2029CC2C9E00B798A4;
 			projectDirPath = "";
@@ -525,45 +489,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-KaralogTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CA995D447BA67BFB762CA7EC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Karalog/Pods-Karalog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Karalog/Pods-Karalog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Karalog/Pods-Karalog-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D63FEE7E3725EEC2AE3C7C7F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Karalog-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -785,14 +710,13 @@
 		};
 		19A12D5429CC2CA000B798A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E590B4190CFA172B8D53B312 /* Pods-Karalog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Karalog/Karalog.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2H27PW62KS;
+				DEVELOPMENT_TEAM = 5VXR3TJUR7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Karalog/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Karalog;
@@ -820,14 +744,13 @@
 		};
 		19A12D5529CC2CA000B798A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D12E4A062AA62995FF3D031 /* Pods-Karalog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Karalog/Karalog.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2H27PW62KS;
+				DEVELOPMENT_TEAM = 5VXR3TJUR7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Karalog/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Karalog;
@@ -855,7 +778,6 @@
 		};
 		19A12D5729CC2CA000B798A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E101F8ECE477F51A4867B549 /* Pods-KaralogTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -876,7 +798,6 @@
 		};
 		19A12D5829CC2CA000B798A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E0371CBD3B5DE3B9D47BAF9 /* Pods-KaralogTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -897,7 +818,6 @@
 		};
 		19A12D5A29CC2CA000B798A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71F78DB740A4C53BC199E6EF /* Pods-Karalog-KaralogUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -917,7 +837,6 @@
 		};
 		19A12D5B29CC2CA000B798A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6468C3A3597ED225A0446E38 /* Pods-Karalog-KaralogUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1001,6 +920,22 @@
 				minimumVersion = 9.0.0;
 			};
 		};
+		EBDBDE492A43E36400814FDC /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		EBDBDE4C2A43E3D800814FDC /* XCRemoteSwiftPackageReference "DZNEmptyDataSet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dzenbot/DZNEmptyDataSet";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1043,6 +978,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 19A12D8A29CF4A5600B798A4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		EBDBDE4A2A43E36400814FDC /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDBDE492A43E36400814FDC /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		EBDBDE4D2A43E3D800814FDC /* DZNEmptyDataSet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBDBDE4C2A43E3D800814FDC /* XCRemoteSwiftPackageReference "DZNEmptyDataSet" */;
+			productName = DZNEmptyDataSet;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
